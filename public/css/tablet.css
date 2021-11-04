@@ -1,0 +1,48 @@
+@media (min-width: 480px) {
+  /* Tablet */
+  .top-nav {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .barra-busqueda {
+    padding: 10px;
+    justify-content: center;
+    height: 50px;
+  }
+  .barra-busqueda input {
+    flex-grow: 1;
+  }
+
+  .product-card {
+    width: 45%;
+  }
+  .navbar {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+  .list-nav {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+  }
+  .list-login {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+  }
+  .list-login li {
+    text-align: center;
+  }
+  .burger-menu-azul {
+    display: none;
+  }
+
+  .display-images {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+  }
+}

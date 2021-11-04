@@ -1,0 +1,18 @@
+.boton-ok {
+    background-color: #1259c3;
+    font-size: 16px;
+    width: 90%;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.send-button {
+    text-align: center;
+}
+
+.barra-busqueda {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
