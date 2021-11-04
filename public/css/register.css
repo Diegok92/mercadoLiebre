@@ -1,56 +1,57 @@
 .register-form {
-    padding: 20px 15px;
-    width: 50%;
-    margin: auto;
+  padding: 20px 15px;
+  width: 50%;
+  min-width: 360px;
+  margin: auto;
 }
 
 .control-formulario {
-    /* todo el campo (input + label)*/
-    padding-bottom: 15px;
+  /* todo el campo (input + label)*/
+  padding-bottom: 15px;
 }
 /* .control-formulario input {
     height: 50px;
 } */
 
 .control {
-    padding: 8px;
-    width: 100%;
+  padding: 8px;
+  width: 100%;
 }
 
 .form-buttons {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .boton-formulario {
-    width: 35%;
-    margin: 10px;
-    border-radius: 5px;
-    height: 45px;
+  width: 35%;
+  margin: 10px;
+  border-radius: 5px;
+  height: 45px;
 }
 .boton-formulario-ok {
-    background-color: #1259c3;
-    color: white;
-    width: 35%;
-    margin: 10px;
-    border-radius: 5px;
-    height: 45px;
+  background-color: #1259c3;
+  color: white;
+  width: 35%;
+  margin: 10px;
+  border-radius: 5px;
+  height: 45px;
 }
 .radio-menu {
-    display: flex;
-    padding: 10px;
-    justify-content: space-evenly;
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
 }
 .intereses-form {
-    padding: 10px;
+  padding: 10px;
 }
 
 .intereses-form label {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    width: 200px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  width: 200px;
 }
 .intereses-form label input {
-    width: 50%;
+  width: 50%;
 }

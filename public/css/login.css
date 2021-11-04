@@ -1,18 +1,22 @@
 .boton-ok {
-    background-color: #1259c3;
-    font-size: 16px;
-    width: 90%;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
+  background-color: #1259c3;
+  font-size: 16px;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
 }
 .send-button {
-    text-align: center;
+  text-align: center;
+}
+
+.boton-ok:hover {
+  background-color: #0022aa;
 }
 
 .barra-busqueda {
-    width: 45%;
-    display: flex;
-    justify-content: center;
-    height: 30px;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  height: 30px;
 }

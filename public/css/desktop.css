@@ -1,27 +1,45 @@
 @media (min-width: 1280px) {
-    /* Desktop */
-    .name-product {
-        /* oculto la descripcion (nombre) de los producto */
-        /* display: none; */
-        transition: transform 0.4s;
-        transform: scale(1, 0);
-    }
-    .display-images {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .product-card {
-        width: 22.5%;
-        transition: box-shadow 0.5s;
-    }
-    .product-card:hover {
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
-    }
-    .product-card:hover .camion {
-        transform: rotate(-90deg);
-    }
-    .product-card:hover .name-product {
-        /* display: block; */
-        transform: scale(1, 1);
-    }
+  /* Desktop */
+  body {
+    font-size: 16px;
+  }
+  .name-product {
+    /* oculto la descripcion (nombre) de los producto */
+    /* display: none; */
+    transition: transform 0.4s;
+    transform: scale(1, 0);
+  }
+  .display-images {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .product-card {
+    width: 22.5%;
+    transition: box-shadow 0.5s;
+  }
+  .product-card:hover {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .product-card:hover .camion {
+    transform: rotate(-90deg);
+  }
+  .product-card:hover .name-product {
+    /* display: block; */
+    transform: scale(1, 1);
+  }
+
+  .footer-father {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .fa-user-shield:hover {
+    color: purple;
+  }
+  .fa-gift:hover {
+    color: purple;
+  }
+  .fa-credit-card:hover {
+    color: purple;
+  }
 }
